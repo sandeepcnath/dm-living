@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.header {
+  width: 100%;
+  max-width: 90rem;
+  padding: 0 calc(2 * var(--flexible-base));
+  margin-inline: auto;
+}
+
+.nav {
+  padding-top: calc(1.5 * var(--flexible-base));
+
+  &__inner-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: calc(1.125 * var(--flexible-base));
+    border-bottom: 2px solid $color-grey;
+  }
+
+  &__logo-link {
+    display: flex;
+    // width: 15rem;
+  }
+
+  &__logo-icon {
+    width: 4.75rem;
+  }
+
+  &__action-list {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+  }
+
+  .dropdown__button {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+}

@@ -1,0 +1,75 @@
+@import "../../styles/variables";
+
+.card-image-text {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-white;
+  border-radius: .25rem;
+  box-shadow: 0px 6px 16px #0000000D;
+  overflow: hidden;
+
+  &__image-wrap {
+    padding: 33.33%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__text-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: calc(1.5 * var(--flexible-base));
+    padding: 1.5rem 1rem;
+
+    * {
+      margin-bottom: 0;
+    }
+  }
+
+  &__description {
+    color: $color-text-2;
+  }
+
+  &__link {
+    align-self: center;
+    // margin-top: .75rem;
+  }
+}
+
+
+@media (min-width: 25rem) {
+  .card-image-text {
+    flex-direction: row;
+    height: 100%;
+
+    &__image-wrap {
+      padding: 0 22% 0 0;
+    }
+
+    &__image {
+      object-fit: cover;
+    }
+
+    &__text-wrap {
+      gap: calc(2 * var(--flexible-base));
+    }
+
+    &__link {
+      align-self: start;
+    }
+  }
+}
+
+@media (min-width: 35rem) {
+  .card-image-text__text-wrap {
+    padding: 1.5rem;
+  }
+}

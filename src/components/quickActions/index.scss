@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.quick-actions-list {
+  --auto-grid-min-size: 9rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 10rem));
+  grid-gap: calc(3.5 * var(--flexible-base));
+  justify-content: center;
+}
+
+@media (min-width: 22rem) {
+  .quick-actions-list {
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    justify-content: space-between;
+  }
+}

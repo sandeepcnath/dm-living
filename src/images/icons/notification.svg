@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Group_8336" data-name="Group 8336" transform="translate(-1759 -21)">
+    <g id="Ellipse_501" data-name="Ellipse 501" transform="translate(1759 21)" fill="#fafafa" stroke="#e8e8e8" stroke-width="1">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="22" fill="none"/>
+    </g>
+    <g id="Group_8335" data-name="Group 8335" transform="translate(151.227 -4.803)">
+      <path id="Path_5645" data-name="Path 5645" d="M10.852,22.176a3.006,3.006,0,0,0,3.006-3.006H7.847a3.006,3.006,0,0,0,3.006,3.006Z" transform="translate(1619.421 38.255)" fill="#c3a061"/>
+      <path id="Path_7406" data-name="Path 7406" d="M9.675,19.171A1.828,1.828,0,0,1,11.5,21H7.847a1.828,1.828,0,0,1,1.828-1.828Z" transform="translate(1620.598 17.005)" fill="#c3a061"/>
+      <path id="Rectangle_2385" data-name="Rectangle 2385" d="M9.273,0h0a9.273,9.273,0,0,1,9.273,9.273v7.418a1.855,1.855,0,0,1-1.855,1.855H1.855A1.855,1.855,0,0,1,0,16.691V9.273A9.273,9.273,0,0,1,9.273,0Z" transform="translate(1621 37.268)" fill="#c3a061"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+@import "../../styles/variables";
+
+.footer {
+  background-color: $color-theme;
+
+  &__top {
+    color: $color-white;
+    max-width: 90rem;
+    margin-inline: auto;
+    padding: calc(7.5 * var(--flexible-base)) calc(2 * var(--flexible-base)) 0;
+  }
+
+  &__text-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: calc(3 * var(--flexible-base));
+    align-items: flex-start;
+    padding: 0 0 calc(6.66 * var(--flexible-base));
+  }
+
+  &__logo-wrap {
+    background: $color-white;
+    display: inline-flex;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 1px solid #6260603E;
+    box-shadow: 0px 3px 6px #00000029;
+    position: relative;
+  }
+
+  &__logo {
+    width: calc(100% - 1rem);
+    position: absolute;
+    top: 33%;
+    left: .5rem;
+  }
+
+  &__image-wrap {
+    overflow: hidden;
+  }
+
+  &__primary-image {
+    margin-bottom: -28%;
+  }
+
+  &__download-link-wrap {
+    display: flex;
+    gap: calc(1.5 * var(--flexible-base));
+    flex-wrap: wrap;
+  }
+
+  &__bottom {
+    text-align: center;
+    color: $color-white;
+    background-color: $color-text;
+    padding: calc(2.5 * var(--flexible-base)) calc(2 * var(--flexible-base));
+  }
+}
+
+.link-app-download {
+  display: flex;
+  width: calc(17 * var(--flexible-base));
+}
+
+@media (min-width: 46rem) {
+  .footer {
+    &__top {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding-top: 0;
+    }
+
+    &__image-wrap {
+      order: 1;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    &__text-wrap {
+      justify-content: center;
+      padding: calc(10 * var(--flexible-base)) 0 calc(6.66 * var(--flexible-base));
+    }
+  }
+}

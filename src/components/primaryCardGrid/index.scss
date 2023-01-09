@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.primary-card-grid {
+  display: grid;
+  gap: .75rem;
+}
+
+@media (min-width: 46rem) {
+  .primary-card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

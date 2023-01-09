@@ -1,0 +1,47 @@
+/* CSS variables values are calculated live in the browser 
+unlike SASS variables, which are calculated at compilation.
+This helps me in some optimizations like given below.*/
+
+:root {
+  --primary-font: "Nunito Sans", sans-serif;
+  --h1: 2rem; //32px
+  --h2: 1.5rem; //24px
+  --h3: 1.125rem; //18px
+  --h4: 1rem; //16px
+
+  --maxWidth-wrapper: 80rem;
+  --flexible-base: 0.5rem;
+  --flexible-base2: 0.5rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --h1: 2.125rem; //34px
+    --h2: 1.6875rem; //27px
+    --h3: 1.125rem; //18px
+    --h4: 1rem; //16px
+
+    --flexible-base: 0.625rem;
+    --flexible-base2: 0.625rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --flexible-base: 0.75rem;
+    --flexible-base2: 0.875rem;
+  }
+}
+
+/* colors - I've used SASS variables for colors,
+as colors often end up used in mixins and 
+CSS variables aren't optimal in that screnario.*/
+$color-text: #000000;
+$color-text-2: #8E8D8B;
+$color-text-light: #FFFFFF;
+$color-white: #FFFFFF;
+$color-bg: #FAFAFA;
+$color-grey: #E8E8E8;
+$color-theme: #BFA272;
+$color-red: #E82B2B;
+$color-green: #2bc48a;

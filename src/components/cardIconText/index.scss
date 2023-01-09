@@ -1,0 +1,102 @@
+@import "../../styles/variables";
+
+.card-icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: $color-white;
+  height: 100%;
+  padding: calc(3.5 * var(--flexible-base)) calc(3 * var(--flexible-base));
+  margin: auto;
+  border-radius: .25rem;
+  box-shadow: 0px 6px 16px #0000000D;
+  overflow: hidden;
+
+  &__inner-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__image-wrap {
+    scale: .75;
+  }
+
+  &__description {
+    color: $color-text-2;
+  }
+
+  &__link {
+    align-self: center;
+    margin-top: 1.25rem;
+  }
+}
+
+.socialmedia-list {
+  display: flex;
+  scale: .75;
+}
+
+.icon- {
+  &supportWhatsapp {
+    width: 98px;
+    height: 82px;
+    background: url('../../images/icons/css_sprites.png') -266px -85px;
+  }
+
+  &supportTicket {
+    width: 98px;
+    height: 82px;
+    background: url('../../images/icons/css_sprites.png') -10px -213px;
+  }
+
+  &faq {
+    width: 98px;
+    height: 82px;
+    background: url('../../images/icons/css_sprites.png') -128px -213px;
+  }
+
+  &followUs {
+    width: 98px;
+    height: 82px;
+    background: url('../../images/icons/css_sprites.png') -232px -213px;
+  }
+
+  &facebook {
+    width: 34px;
+    height: 34px;
+    background: url('../../images/icons/css_sprites.png') -404px -213px;
+  }
+
+  &facebook {
+    width: 34px;
+    height: 34px;
+    background: url('../../images/icons/css_sprites.png') -404px -213px;
+  }
+
+  &instagram {
+    width: 34px;
+    height: 34px;
+    background: url('../../images/icons/css_sprites.png') -10px -315px;
+  }
+
+  &linkedin {
+    width: 34px;
+    height: 34px;
+    background: url('../../images/icons/css_sprites.png') -64px -315px;
+  }
+
+  &twitter {
+    width: 34px;
+    height: 34px;
+    background: url('../../images/icons/css_sprites.png') -118px -315px;
+  }
+
+  &youtube {
+    width: 34px;
+    height: 34px;
+    background: url('../../images/icons/css_sprites.png') -338px -213px;
+  }
+}
