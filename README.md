@@ -14,9 +14,7 @@
     The design was 1920px wide, since the real width of website would be lesser that that, I scaled the fonts, spaces etc down to 75% of he origial dimension.
 
 2.  **Requires atleast 18.2.0v of NodeJS**
-
-    So if you've a lower version in local then just install using yarn and chose 18.2.0 when yarn asks during instalation.
-    Sorry that this is not hosted, this issue with Node version is causing errors with Netlify. Tried many options but none worked.
+      hosted at https://dm-living.netlify.app/
 
     ```shell
     git clone https://github.com/sandeepcnath/dm-living.git

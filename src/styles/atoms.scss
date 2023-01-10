@@ -178,8 +178,9 @@ strong {
   &__options {
     display: none;
     position: absolute;
-    right: 0;
     top: 2.5rem;
+    right: 0;
+    z-index: 2;
     overflow: auto;
     background-color: $color-white;
     border-radius: .25rem;
