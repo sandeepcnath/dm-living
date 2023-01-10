@@ -12,8 +12,13 @@
 1.  **Scaling**
 
     The design was 1920px wide, since the real width of website would be lesser that that, I scaled the fonts, spaces etc down to 75% of he origial dimension.
+   
+2.  **What's missing**
 
-2.  **Requires atleast 18.2.0v of NodeJS**
+    The sliders are missing, also the side nav.
+    I was busy with some personal stuff, so couldn't fix the error that occured when I added swiperjs, and complete the side nav.
+
+3.  **Requires atleast 18.2.0v of NodeJS**
       hosted at https://dm-living.netlify.app/
 
     ```shell
@@ -22,11 +27,7 @@
     gatsby develop
     ```
 
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+    Site will run at http://localhost:8000!
 
 4.  **Learn more**
 

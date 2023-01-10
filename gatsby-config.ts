@@ -3,6 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `DM Living`,
+    description: `A demo website`,
     author: {
       name: `sandeep c nath`,
     },

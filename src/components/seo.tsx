@@ -2,7 +2,7 @@ import React from "react"
 
 export const SEO: React.FC = ({ title, description, pathname, children }) => {
   const siteUrl = "damacLiving"
-  const image = "dafd"
+  const image = "/public/icons//icon-256x256.png"
 
   const seo = {
     title: title || "Damac Living",
