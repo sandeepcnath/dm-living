@@ -9,7 +9,6 @@ const CardProperty: React.FC = ({ data }) => {
       to={data.url}
       title={`Click to see ${data.propId}`}
     >
-      {console.log("data", data)}
       <div className="card-property__text-wrap">
         <h3 className="">{data.propId}</h3>
         <small>{data.location}</small>
