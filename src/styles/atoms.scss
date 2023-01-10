@@ -240,17 +240,3 @@ strong {
     margin-bottom: .8em;
   }
 }
-
-.fixed-help {
-  display: flex;
-  position: fixed;
-  right: 1rem;
-  bottom: 2rem;
-  z-index: 1;
-
-  &__icon {
-    display: block;
-    width: calc(6 * var(--flexible-base));
-    height: calc(6 * var(--flexible-base));
-  }
-}
