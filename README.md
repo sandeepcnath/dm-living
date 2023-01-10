@@ -4,27 +4,24 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  Damac iinterview evaluation
 </h1>
 
-## 🚀 Quick start
+## 🚀 Quick info
 
-1.  **Create a Gatsby site.**
+1.  **Scaling**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+    The design was 1920px wide, since the real width of website would be lesser that that, I scaled the fonts, spaces etc down to 75% of he origial dimension.
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+2.  **Requires atleast 18.2.0v of NodeJS**
 
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+    So if you've a lower version in local then just install using yarn and chose 18.2.0 when yarn asks during instalation.
+    Sorry that this is not hosted, this issue with Node version is causing errors with Netlify. Tried many options but none worked.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    git clone https://github.com/sandeepcnath/dm-living.git
+    cd dm-living/
+    gatsby develop
     ```
 
 3.  **Open the code and start customizing!**
