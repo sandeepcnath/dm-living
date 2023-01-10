@@ -202,41 +202,35 @@ strong {
 
 // plugin override
 
+.swiper-wrapper {
+  display: flex;
+}
+
 .swiper-container {
   padding-bottom: 3rem !important;
 }
 
-.swiper-pagination {
-  width: 100%;
-  position: absolute;
-  bottom: 0 !important;
-  display: flex;
-  justify-content: center;
+// .swiper-pagination {
+//   width: 100%;
+//   position: absolute;
+//   bottom: 0 !important;
+//   display: flex;
+//   justify-content: center;
 
-  &-bullet {
-    background: #eec0c6 !important;
-    font-size: 0.875rem !important;
-    width: auto !important;
-    height: auto !important;
-    padding: 0.25em 0.75em;
-    margin: 0 0.8rem !important;
-    border-radius: 0.25rem !important;
-    opacity: unset !important;
-    cursor: pointer;
+//   &-bullet {
+//     background: #eec0c6 !important;
+//     font-size: 0.875rem !important;
+//     width: auto !important;
+//     height: auto !important;
+//     padding: 0.25em 0.75em;
+//     margin: 0 0.8rem !important;
+//     border-radius: 0.25rem !important;
+//     opacity: unset !important;
+//     cursor: pointer;
 
-    &-active {
-      color: #fff !important;
-      background: #931a1a !important;
-    }
-  }
-}
-
-// molecules 
-
-.home-section {
-  padding-bottom: calc(7.5 * var(--flexible-base));
-
-  &__title {
-    margin-bottom: .8em;
-  }
-}
+//     &-active {
+//       color: #fff !important;
+//       background: #931a1a !important;
+//     }
+//   }
+// }

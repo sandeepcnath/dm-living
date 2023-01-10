@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+
+.whatsnew-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.whatsnew__image {
+  border-radius: .375rem;
+}

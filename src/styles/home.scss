@@ -1,0 +1,24 @@
+@import "variables";
+
+
+.home-section {
+  padding-bottom: calc(7.5 * var(--flexible-base));
+
+  &__title {
+    margin-bottom: .6em;
+  }
+}
+
+.home-banner {
+  margin-top: 1.125rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+
+@media (min-width: 48rem) {
+  .home-banner {
+    grid-template-columns: 1fr 1fr;
+    gap: .75rem;
+  }
+}

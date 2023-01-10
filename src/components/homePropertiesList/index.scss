@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.home-property-list-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-property-list {
+  flex: 1;
+  display: grid;
+  gap: .75rem;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+}
+
+@media (min-width: 48rem) {
+  .home-property-list {
+    grid-template-columns: 1fr 1fr
+  }
+}
