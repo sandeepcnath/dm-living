@@ -9,6 +9,11 @@ const CardImageTextHorizontal: React.FC = ({ data }) => {
         <img
           src={data.image}
           alt=""
+          className="card-image-text__image card-image-text__image_blur"
+        />
+        <img
+          src={data.image}
+          alt=""
           className="card-image-text__image"
         />
       </div>
